@@ -8,6 +8,4 @@ Install from it with no compiler:
 install.packages("gghalftone", repos = c("https://kinelhu.r-universe.dev", "https://cloud.r-project.org"))
 ```
 
-`subdir` is needed for `gghalftone` because the package sits in a subdirectory of its repository.
-
 To add a package, append an entry with its `package` name, the public git `url`, and `subdir` if it is not at the repository root. R-universe rebuilds on each push here and on each push to a listed repository.
